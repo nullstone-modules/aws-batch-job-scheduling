@@ -1,0 +1,15 @@
+org_name: nullstone
+name: aws-batch-job-scheduling
+friendly_name: AWS Batch Job Scheduling
+description: Capability that injects the arn of the connection job definition
+category: capability
+subcategory: events
+provider_types:
+    - aws
+platform: batch
+subplatform: fargate
+type: ""
+appCategories:
+    - container
+    - serverless
+is_public: true
